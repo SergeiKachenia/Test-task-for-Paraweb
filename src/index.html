@@ -9,7 +9,44 @@
 </head>
 
 <body>
-    <header class="header">Хэдер</header>
+    <header class="header">
+        <img class="header__logo" src="<%=require('./images/logo-header.png')%>" alt="лого в шапке" />
+        <div class="header__info">
+            <a class="header__info-tel" href="tel:+78000000000">8 800 000 00 00</a>
+            <a class="header__info-email" href="mailto:sales@logo.ru">sales@logo.ru</a>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="slide fade">
+            <div class="slide__content">
+                <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
+                <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
+                <button class="slide__content-button">Подробнее</button>
+            </div>
+            <img class="slide__image" src="<%=require('./images/man.png')%>">
+        </div>
+                <div class="slide fade">
+            <div class="slide__content">
+                <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
+                <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
+                <button class="slide__content-button">Подробнее</button>
+            </div>
+            <img class="slide__image" src="<%=require('./images/man.png')%>">
+        </div>
+                <div class="slide fade">
+            <div class="slide__content">
+                <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
+                <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
+                <button class="slide__content-button">Подробнее</button>
+            </div>
+            <img class="slide__image" src="<%=require('./images/man.png')%>">
+        </div>
+                            <div class="carousel__dots">
+            <span class="carousel__dot"></span>
+            <span class="carousel__dot"></span>
+            <span class="carousel__dot"></span>
+        </div>
+    </section>
     <div class="page-wrapper">
         <div class="results-container js-results">
             <div class="axios-results axios-results-container">

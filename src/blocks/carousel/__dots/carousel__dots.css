@@ -1,0 +1,6 @@
+.carousel__dots {
+  display: block;
+  position: absolute;
+  bottom: 64px;
+  left: 9.5%;
+}

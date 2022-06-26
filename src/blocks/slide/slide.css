@@ -1,0 +1,6 @@
+.slide {
+  background: linear-gradient(100.68deg, #5991FF 13.6%, #0050EF 94.69%);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}

@@ -1,4 +1,4 @@
-import '../styles/index.css';
+import './pages/index.css';
 
 
 const axiosContainer = document.querySelector(".axios-results__grid-container");
@@ -20,5 +20,23 @@ const getPostsData = () => {
             });
         });
 };
-
 getPostsData();
+
+
+let slideIndex = 0;
+const showSlides = () => {
+    const slides = document.getElementsByClassName("slide");
+    const dots = document.getElementsByClassName("carousel__dot");
+    for ( let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("carousel__dot_active");
+    }
+    slides[slideIndex-1].style.display = "flex";
+    dots[slideIndex-1].classList.add("carousel__dot_active");
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+showSlides();

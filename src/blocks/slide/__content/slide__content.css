@@ -1,0 +1,4 @@
+.slide__content {
+  margin: 100px 0 181px 9.5%;
+  max-width: calc((574 * 100%) / 1440);
+}
