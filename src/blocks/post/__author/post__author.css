@@ -1,0 +1,12 @@
+.post__author {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0050EF;
+  padding: 8px 20px;
+  background: rgba(0, 80, 239, 0.06);
+  border-radius: 10px;
+  width: 125px;
+  text-align: center;
+  margin: 0;
+}

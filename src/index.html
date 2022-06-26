@@ -21,7 +21,7 @@
             <div class="slide__content">
                 <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
                 <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
-                <button class="slide__content-button">Подробнее</button>
+                <button  type="button" class="slide__content-button">Подробнее</button>
             </div>
             <img class="slide__image" src="<%=require('./images/man.png')%>">
         </div>
@@ -29,7 +29,7 @@
             <div class="slide__content">
                 <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
                 <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
-                <button class="slide__content-button">Подробнее</button>
+                <button type="button" class="slide__content-button">Подробнее</button>
             </div>
             <img class="slide__image" src="<%=require('./images/man.png')%>">
         </div>
@@ -37,7 +37,7 @@
             <div class="slide__content">
                 <h2 class="slide__content-heading">Как бизнесу сохранять IT-кадры на фоне кризиса</h2>
                 <p class="slide__content-text">Инструменты, которые могут использовать компании для удержания сотрудников</p>
-                <button class="slide__content-button">Подробнее</button>
+                <button type="button" class="slide__content-button">Подробнее</button>
             </div>
             <img class="slide__image" src="<%=require('./images/man.png')%>">
         </div>
@@ -47,17 +47,26 @@
             <span class="carousel__dot"></span>
         </div>
     </section>
-    <div class="page-wrapper">
-        <div class="results-container js-results">
-            <div class="axios-results axios-results-container">
-                <h2 class="axios-results__heading">Посты</h2>
-                <div class="axios-results__grid-container">
-
+    <section class="posts">
+                <div class="posts__grid-container">
                 </div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer">Футер</footer>
+    </section>
+    <footer class="footer">
+        <img class="footer__logo" src="<%=require('./images/logo-footer.png')%>">
+        <nav class="footer__navigation">
+            <a class="footer__nav-item">Готовые решения</a>
+            <a class="footer__nav-item">О нас</a>
+            <a class="footer__nav-item">Блог</a>
+            <a class="footer__nav-item">Контакты</a>
+        </nav>
+        <p class="footer__copyright">© ООО «Лого», 2008—2022</p>
+        <ul class="footer__links">
+            <li><a class="footer__link"><img src="./images/telegram.svg"></a></li>
+            <li><a class="footer__link"><img src="./images/vk.svg"></a></li>
+            <li><a class="footer__link"><img src="./images/twitter.svg"></a></li>
+            <li><a class="footer__link"><img src="./images/youtube.svg"></a></li>
+        </ul>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
